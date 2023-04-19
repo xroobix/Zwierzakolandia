@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    padding-inline: 1rem;
+    margin: auto;
+  }
+
+ul, ul li {
+    list-style: none;
+}
+
+:root {
+ --blue: #206ef6;
+ --red: #dd2834; 
+}
