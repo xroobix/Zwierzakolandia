@@ -12,7 +12,11 @@ body {
     max-width: 1200px;
     padding-inline: 1rem;
     margin: auto;
-  }
+}
+
+section {
+    margin-block: 4rem;
+}
 
 ul, ul li {
     list-style: none;
