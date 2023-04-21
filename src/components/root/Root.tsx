@@ -3,6 +3,37 @@ import Logo from '../../assets/icon.svg';
 import './root.css';
 
 export const Root = () => {
+  const navList = [
+    {
+      link: '/psy',
+      header: 'Psy',
+    },
+    {
+      link: '/koty',
+      header: 'Koty',
+    },
+    {
+      link: '/rybki',
+      header: 'Rybki',
+    },
+    {
+      link: '/ptaki',
+      header: 'Ptaki',
+    },
+    {
+      link: '/gady-i-plazy',
+      header: 'Gady i płazy',
+    },
+    {
+      link: '/gryzonie',
+      header: 'Gryzonie',
+    },
+    {
+      link: '/kontakt',
+      header: 'Kontakt',
+    },
+  ];
+
   return (
     <>
       <header>
@@ -37,41 +68,13 @@ export const Root = () => {
           <div className="container">
             <div className="navbar__wrapper">
               <ul className="navbar__list">
-                <li className="navbar__item">
-                  <Link to="/" className="link">
-                    Psy
-                  </Link>
-                </li>
-                <li className="navbar__item">
-                  <Link to="/" className="link">
-                    Koty
-                  </Link>
-                </li>
-                <li className="navbar__item">
-                  <Link to="/" className="link">
-                    Rybki
-                  </Link>
-                </li>
-                <li className="navbar__item">
-                  <Link to="/" className="link">
-                    Ptaki
-                  </Link>
-                </li>
-                <li className="navbar__item">
-                  <Link to="/" className="link">
-                    Gady i płazy
-                  </Link>
-                </li>
-                <li className="navbar__item">
-                  <Link to="/" className="link">
-                    Gryzonie
-                  </Link>
-                </li>
-                <li className="navbar__item">
-                  <Link to="/" className="link">
-                    Kontakt
-                  </Link>
-                </li>
+                {navList.map((i, idx) => (
+                  <li className="navbar__item" key={i.header + idx}>
+                    <Link to={i.link} className="link">
+                      {i.header}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

@@ -67,11 +67,11 @@
 }
 
 .link {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     flex-grow: 1;
     text-align: center;
     color: white;
-    padding-block: .55rem;
+    line-height: 3.4rem;
     text-decoration: transparent;
     text-underline-offset: 4px;
     background: linear-gradient(#0000, rgb(0 0 0/10%)) top/1000% 10000%;
