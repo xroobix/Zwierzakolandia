@@ -1,0 +1,10 @@
+.product-category__header h1{
+    margin-bottom: 1rem;
+}
+
+.product-category__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
