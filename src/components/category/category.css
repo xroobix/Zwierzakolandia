@@ -15,7 +15,7 @@
     color: #131313;
 }
 
-.product-category__item:hover {
+.category__item:hover {
     text-decoration: underline 1px #131313;
 }
 
