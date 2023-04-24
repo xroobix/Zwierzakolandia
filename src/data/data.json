@@ -1,0 +1,118 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "category": "karma",
+            "type": "sucha",
+            "for": "psy",
+            "product-name": "Alleva Natural Dog Adult Jagnięcina & Dynia Mini",
+            "brand": "Alleva Natural",
+            "flavor": "Jagnięcina & Dynia",
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Karma zapewnia zbilansowaną i pożywną dietę, a dzięki brązowemu ryżowi i dyni o niskim indeksie glikemicznym, dostarcza szereg wartości odżywczych. Formuła karmy Alleva Natural Adult Mini Lamb & Pumpkin jest odpowiednia dla dorosłych psów małych ras. Aromatyczne krokieciki są dostosowane do rasy i wielkości psa, co dodatkowo poprawia jej walory smakowe. Jest to karma niskoziarnista, która zawiera wysokiej jakości źródło białek i tłuszczów pochodzenia zwierzęcego, wyselekcjonowanych po dokładnej analizie. Umiarkowana ilość skrobi w formule karmy jest dobierana zgodnie z jej właściwościami przy użyciu brązowego ryżu o niskim indeksie glikemicznym, co powoduje wolniejsze uwalnianie glukozy w jelicie, co oznacza dłuższą energię. Karma Alleva Natural cechuje się także wysokim poziomem suplementów odżywczych, które poprawiają samopoczucie każdej części ciała, od stawów po serce. Cały produkt jest starannie opracowany z największą precyzją, aby zapewnić Twojemu pupilowi zdrowe i smaczne posiłki. Dzięki temu, że karma jest przygotowywana na parze, jest ona lekkostrawna i niezwykle zdrowa, co wpływa korzystnie na zdrowie Twojego psa."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Suszona jagnięcina (35%), świeża jagnięcina (20%), ryż brązowy, tłuszcz kurczaka, skrobia grochowa, suszona dynia (5%), suszona pulpa buraczana, olej rybi (śledź), wątroba kurczaka, korzeń cykorii (źródło inuliny i F.O.S.), suszone inaktywowane drożdże piwne (źródło M.O.S.), fosforan dwuwapniowy, węglan potasu, glukozamina, siarczan chondroityny, sok z juki"
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe 26,0%; Tłuszcz surowy 16,0%; Włókno surowe 2,0%; Popiół surowy 7,0%; Wapń 1,20%; Fosfor 0,80%; Omega-6 2,0%; Omega-3 0,5%; Glukozamina 1000mg/kg; Siarczan chondroityny 800mg/kg. Energia Metaboliczna (CEN): 3860 kcal/kg; 16,2 MJ/kg."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000001",
+                    "value": "2 kg",
+                    "price": 76.90,
+                    "discount": 10,
+                    "available": true,
+                    "images": [
+                        {
+                            "url": "/images/Alleva Natural Dog Adult Lamb & Pumpkin Mini 2kg.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000002",
+                    "value": "12 kg",
+                    "price": 268.90,
+                    "discount": 0,
+                    "available": false,
+                    "images": [
+                        {
+                            "url": "/images/Alleva Natural Dog Adult Lamb & Pumpkin Mini 12kg.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 2,
+            "category": "karma",
+            "type": "sucha",
+            "for": "psy",
+            "product-name": "Brit Care Dog Sustainable Activity Kurczak & Owady",
+            "brand": "Brit Care",
+            "flavor": "Kurczak & Owady",
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Pełnoporcjowa karma na bazie kurczaka i owadów, stworzona z myślą o dorosłych psach aktywnych. Ekologiczna receptura karmy pomaga zapewnić zdrowe trawienie oraz ograniczyć stres, dzięki składnikom poprawiającym samopoczucie psa. Formuła zawiera łatwo przyswajalne białka z kompletem aminokwasów, przez co dba o rozwój fizyczny oraz kształtowanie się odporności organizmu dorosłego psa. Lekkostrawny kurczak pomaga w budowaniu mocnych mięśni i optymalnej kondycji, a hipoalergiczne białko z owadów nadaje posiłkom smakowitości. Bezglutenowa formuła wspiera prawidłowe trawienie, minimalizując ryzyko nadmiernego przybierania na wadze. Zawartość chondroprotektorów wspiera zdrowie aparatu ruchu, a dodatek L-karnityny przyspiesza metabolizm i poprawia regenerację mięśni aktywnego psa. Zastosowanie ekologicznych rozwiązań i składników pozwala ograniczyć o 35% negatywny wpływ na środowisko w porównaniu do karm opartych na czerwonym mięsie."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Kurczak (38%) (dehydratyzowany kurczak, hydrolizowany kurczak), owies (26%), dehydratyzowane owady (14%), tłuszcz z kurczaka, suszona pulpa jabłkowa, naturalny aromat, drożdże piwne, olej z łososia (2%), mąka grochowa, glukozamina (260 mg/kg), fruktooligosacharydy (200 mg/kg), siarczan chondroityny (200 mg/kg), mannanoligosacharydy (150 mg/kg), Jukka Mojave (150 mg/kg), nasiona ostropestu plamistego (90 mg/kg), β-glukany (50 mg/kg), suszony serdecznik (50 mg/kg), suszony rokitnik zwyczajny (50 mg/kg), probiotyki Lactobacillus helveticus HA – 122 inaktywowane (15x109 komórek/kg)."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description": "Białko surowe 28,0%, tłuszcz surowy 17,0%, wilgotność 10,0%, popiół surowy 6,5%, włókno surowe 3,0%, wapń 1,4%, fosfor 1,0%, sód 0,3%, kwasy tłuszczowe omega-3 0,4%, kwasy tłuszczowe omega-6 2,7%, EPA (20:5 n-3) 0,05%, DHA (22:6 n-3) 0,1%."
+                }
+            ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000003",
+                    "value": "1 kg",
+                    "price": 22.80,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "url": "/images/Brit Care Dog Sustainable Activity Chicken & Insect 1kg.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000004",
+                    "value": "3 kg",
+                    "price": 61.90,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "url": "/images/Brit Care Dog Sustainable Activity Chicken & Insect 1kg.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000005",
+                    "value": "12 kg",
+                    "price": 190.80,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "url": "/images/Brit Care Dog Sustainable Activity Chicken & Insect 1kg.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        }]}
