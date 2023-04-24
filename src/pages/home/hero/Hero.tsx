@@ -9,7 +9,7 @@ export const Hero = () => {
         <div className="hero__wrapper">
           <div className="hero__text">
             <h2>Witaj w Zwierzakolandii</h2>
-            <h1>Ulubionym sklepie zoologicznym Twojego pupila!</h1>
+            <h1>Ulubionym sklepie Twojego pupila!</h1>
             <p>
               W naszym sklepie znajdziesz wszystko, czego
               potrzebujesz, aby zadbać o swojego futrzanego
