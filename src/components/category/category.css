@@ -1,6 +1,6 @@
 .category__item {
     text-align: center;
-    width: 14.5%;
+    flex-grow: 1;
     text-decoration: none;
 }
 
@@ -20,7 +20,8 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .category__item {
+    .category__item { 
         width: 30%;
+        flex-grow: unset;
     }
 }

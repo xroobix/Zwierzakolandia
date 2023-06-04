@@ -1,10 +1,11 @@
-import { Hero } from "./hero/Hero";
-import { ProductCategory } from "./product-category/ProductCategory";
-
+import { ProductCategory } from '../../components/product-category/ProductCategory';
+import { Hero } from './hero/Hero';
 
 export const Home = () => {
-  return <>
-    <Hero />
-    <ProductCategory />
-  </>;
+  return (
+    <>
+      <Hero />
+      <ProductCategory />
+    </>
+  );
 };

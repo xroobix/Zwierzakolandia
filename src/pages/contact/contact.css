@@ -1,0 +1,109 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.contact-header {
+    background-color: color-mix(in srgb, #206ef6 25%, white);
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgb(56, 56, 56);
+    padding: 1rem 5rem;
+    margin-top: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-required {
+    color: var(--red);
+}
+
+.contact-form label {
+    margin-top: 1.5rem;
+    margin-left: .25rem;
+    font-size: .9rem;
+    color: gray;
+}
+
+.contact-form input {
+    font-size: 1.125rem;
+    padding: .75rem;
+    border-radius: .5rem;
+    border: 1px solid #dee1ec;
+}
+
+.contact-form textarea {
+    font-size: 1.125rem;
+    padding: .75rem;
+    border-radius: .5rem;
+    border: 1px solid #dee1ec;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form-message-length {
+    position: absolute;
+    color: gray;
+    font-size: .9rem;
+    right: 0;
+    top: 1.5rem;
+    margin-right: .25rem;
+}
+
+.contact-form-row {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 4rem;
+}
+
+.contact-form-column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact-form-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.contact-form-submit-btn{
+    font-size: 1.125rem;
+    border: none;
+    border-radius: .25rem;
+    background: var(--blue);
+    color: white;
+    padding: 1rem;
+    width: 90%;
+    cursor: pointer;
+}
+
+.contact-form-error {
+    position: absolute;
+    bottom: -1rem;
+    font-size: .9rem;
+    margin-left: .25rem;
+    color: var(--red);
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-form-row {
+        flex-direction: column;
+        width: 90vw;
+        gap: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-container {
+        padding-inline: 1rem;
+    }
+}

@@ -1,0 +1,45 @@
+.notfound {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-block: 4rem;
+}
+
+.notfound-text, .notfound-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.notfound-text {
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.notfound-text p{
+    margin-top: 1rem;
+}
+
+.notfound-link {
+    color: white;
+    text-decoration: none;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: var(--blue);
+}
+
+.notfound-image img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .notfound {
+        flex-direction: column-reverse;
+    }
+    .notfound-image img {
+        max-width: 500px; 
+    }
+}

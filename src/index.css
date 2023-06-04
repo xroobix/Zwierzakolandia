@@ -24,5 +24,15 @@ ul, ul li {
 
 :root {
  --blue: #206ef6;
- --red: #dd2834; 
+ --red: #dd2834;
+}
+
+main {
+    min-height: calc(100vh - 582px);
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        padding-inline: 1rem;
+    }
 }

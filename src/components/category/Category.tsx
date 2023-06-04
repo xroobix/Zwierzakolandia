@@ -10,7 +10,7 @@ interface Props {
 export const Category: FC<Props> = ({ name, url, img }) => {
   return (
     <Link to={url} className="category__item">
-      <img src={`src/assets/${img}`} alt='category' className='item__image'/>
+      <img src={img} alt='category' className='item__image'/>
       <p className='item__header'>{name}</p>
     </Link>
   );

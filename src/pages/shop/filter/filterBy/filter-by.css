@@ -1,0 +1,56 @@
+.filter-by {
+    border-bottom: 1px solid #dee1ec;
+}
+
+.filter-by-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filter-by:last-child {
+    border-bottom: none;
+}
+
+.filter-by svg {
+    min-width: 18px;
+    transition: all .2s;
+}
+
+.filter-by ul {
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+}
+
+.filter-by-btn{
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .75rem;
+    font-size: .925rem;
+    font-family: Lato, sans-serif;
+    text-align: start;
+    text-decoration: none;
+    color: black;
+}
+
+.filter-by-btn:hover{
+    text-decoration: underline;
+}
+
+.filter-by-vm-btn {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+    letter-spacing: -1px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.filter-by h3 {
+    font-size: 1.25rem;
+    margin-block: 1.25rem;
+}
+

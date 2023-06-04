@@ -1,0 +1,118 @@
+footer {
+    margin-top: 8rem;
+    padding-top: 2rem;
+    background: var(--blue);
+    color: white;
+    position: relative;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+}
+.footer-content-desktop, .footer-content-contact {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+.footer-content-mobile {
+    display: none;
+    margin-bottom: 2rem;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+.footer-section h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: .75rem;
+  }
+.footer-section p {
+    line-height: 1.5;
+    margin-bottom: .25rem;
+  }
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+.arrow-down {
+    margin-left: auto;
+    transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.szh-accordion__item {
+    border-bottom: 1px solid #dee1ec;
+}
+
+.szh-accordion__item-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.szh-accordion__item-btn:hover {
+    backdrop-filter: brightness(1.1);
+}
+
+.szh-accordion__item-content {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.szh-accordion__item-panel {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.szh-accordion__item--expanded .arrow-down {
+    transform: rotate(180deg);
+}
+
+.footer-dog, .footer-cat {
+    position: absolute;
+    width: 200px;
+}
+
+.footer-dog {
+    right: 0;
+    top: -95px
+}
+
+.footer-cat {
+    right: 65px;
+    top: -68px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .footer-content {
+        flex-direction: column-reverse;
+    }
+    .footer-content-mobile {
+        display: block;
+    }
+    .footer-content-desktop {
+        display: none;
+    }
+    .footer-content-contact {
+        margin-bottom: 1.5rem;
+    }
+  }

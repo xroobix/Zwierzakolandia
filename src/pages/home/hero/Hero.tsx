@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import heroImg from '../../../assets/hero-puppy.png';
 import './hero.css';
 
 export const Hero = () => {
@@ -11,11 +10,8 @@ export const Hero = () => {
             <h2>Witaj w Zwierzakolandii</h2>
             <h1>Ulubionym sklepie Twojego pupila!</h1>
             <p>
-              W naszym sklepie znajdziesz wszystko, czego
-              potrzebujesz, aby zadbać o swojego futrzanego
-              przyjaciela. Od pysznego jedzenia po wygodne łóżeczka i
-              zabawki, mamy wszystko, czego potrzebujesz, aby
-              zaspokoić potrzeby Twojego pupila.
+              W naszym sklepie znajdziesz wszystko, czego potrzebujesz, aby zadbać o swojego przyjaciela. Od pysznego jedzenia po wygodne
+              łóżeczka i zabawki, mamy wszystko, czego potrzebujesz, aby zaspokoić potrzeby Twojego pupila.
             </p>
             <div className="hero__link">
               <Link to="/wszystko">Sprawdź</Link>

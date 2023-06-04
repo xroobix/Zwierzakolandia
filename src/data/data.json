@@ -1,13 +1,89 @@
 {
+    "categories": [
+        {
+            "name": "Karma",
+            "category": "karma"
+          },
+          {
+            "name": "Przysmaki",
+            "category": "przysmaki"
+          },
+          {
+            "name": "Zabawki",
+            "category": "zabawki"
+          },
+          {
+            "name": "Kosmetyki",
+            "category": "kosmetyki"
+          },
+          {
+            "name": "Suplementy",
+            "category": "suplementy"
+          },
+          {
+            "name": "Legowiska",
+            "category": "legowiska"
+          },
+          {
+            "name": "Psy",
+            "category": "psy"
+          },
+          {
+            "name": "Koty",
+            "category": "koty"
+          },
+          {
+            "name": "Rybki",
+            "category": "rybki"
+          },
+          {
+            "name": "Ptaki",
+            "category": "ptaki"
+          },
+          {
+            "name": "Gady i Płazy",
+            "category": "gady-i-plazy"
+          },
+          {
+            "name": "Gryzonie",
+            "category": "gryzonie"
+          },
+          {
+            "name": "Wszystko",
+            "category": "wszystko"
+          }
+    ],
+    "translations": [
+        {
+            "eng": "category",
+            "pl": "kategoria"
+        },
+        {
+            "eng": "type",
+            "pl": "rodzaj"
+        },
+        {
+            "eng": "animal",
+            "pl": "pupil"
+        },
+        {
+            "eng": "brand",
+            "pl": "producent"
+        },
+        {
+            "eng": "meat",
+            "pl": "mięso"
+        }
+    ],
     "products": [
         {
             "id": 1,
             "category": "karma",
             "type": "sucha",
-            "for": "psy",
+            "animal": "psy",
             "product-name": "Alleva Natural Dog Adult Jagnięcina & Dynia Mini",
             "brand": "Alleva Natural",
-            "flavor": "Jagnięcina & Dynia",
+            "meat": ["Jagnięcina"],
             "info": [
                 {
                     "title": "Opis",
@@ -15,7 +91,7 @@
                 },
                 {
                     "title": "Skład",
-                    "description": "Suszona jagnięcina (35%), świeża jagnięcina (20%), ryż brązowy, tłuszcz kurczaka, skrobia grochowa, suszona dynia (5%), suszona pulpa buraczana, olej rybi (śledź), wątroba kurczaka, korzeń cykorii (źródło inuliny i F.O.S.), suszone inaktywowane drożdże piwne (źródło M.O.S.), fosforan dwuwapniowy, węglan potasu, glukozamina, siarczan chondroityny, sok z juki"
+                    "description": "Suszona jagnięcina (35%), świeża jagnięcina (20%), ryż brązowy, tłuszcz kurczaka, skrobia grochowa, suszona dynia (5%), suszona pulpa buraczana, olej rybi (śledź), wątroba kurczaka, korzeń cykorii (źródło inuliny i F.O.S.), suszone inaktywowane drożdże piwne (źródło M.O.S.), fosforan dwuwapniowy, węglan potasu, glukozamina, siarczan chondroityny, sok z juki."
                 },
                 {
                     "title": "Składniki analityczne",
@@ -28,24 +104,24 @@
                 {
                     "product-number": "000001",
                     "value": "2 kg",
-                    "price": 76.90,
-                    "discount": 10,
+                    "price": 76.99,
+                    "discount": 13,
                     "available": true,
                     "images": [
                         {
-                            "url": "/images/Alleva Natural Dog Adult Lamb & Pumpkin Mini 2kg.jpg"
+                            "src": "/images/Alleva Natural Dog Adult Lamb & Pumpkin Mini 2kg.jpg"
                         }
                                 ]
                 },
                 {
                     "product-number": "000002",
                     "value": "12 kg",
-                    "price": 268.90,
+                    "price": 268.99,
                     "discount": 0,
                     "available": false,
                     "images": [
                         {
-                            "url": "/images/Alleva Natural Dog Adult Lamb & Pumpkin Mini 12kg.jpg"
+                            "src": "/images/Alleva Natural Dog Adult Lamb & Pumpkin Mini 12kg.jpg"
                         }
                                 ]
                 }
@@ -56,10 +132,10 @@
             "id": 2,
             "category": "karma",
             "type": "sucha",
-            "for": "psy",
+            "animal": "psy",
             "product-name": "Brit Care Dog Sustainable Activity Kurczak & Owady",
-            "brand": "Brit Care",
-            "flavor": "Kurczak & Owady",
+            "brand": "Brit",
+            "meat": ["Kurczak", "Owady"],
             "info": [
                 {
                     "title": "Opis",
@@ -80,39 +156,1322 @@
                 {
                     "product-number": "000003",
                     "value": "1 kg",
-                    "price": 22.80,
+                    "price": 22.89,
                     "discount": 0,
                     "available": true,
                     "images": [
                         {
-                            "url": "/images/Brit Care Dog Sustainable Activity Chicken & Insect 1kg.jpg"
+                            "src": "/images/Brit Care Dog Sustainable Activity Chicken & Insect 1kg.jpg"
                         }
                                 ]
                 },
                 {
                     "product-number": "000004",
                     "value": "3 kg",
-                    "price": 61.90,
-                    "discount": 0,
+                    "price": 61.99,
+                    "discount": 5,
                     "available": true,
                     "images": [
                         {
-                            "url": "/images/Brit Care Dog Sustainable Activity Chicken & Insect 1kg.jpg"
+                            "src": "/images/Brit Care Dog Sustainable Activity Chicken & Insect 3kg.jpg"
                         }
                                 ]
                 },
                 {
                     "product-number": "000005",
                     "value": "12 kg",
-                    "price": 190.80,
+                    "price": 190.89,
                     "discount": 0,
                     "available": true,
                     "images": [
                         {
-                            "url": "/images/Brit Care Dog Sustainable Activity Chicken & Insect 1kg.jpg"
+                            "src": "/images/Brit Care Dog Sustainable Activity Chicken & Insect 12kg.jpg"
                         }
                                 ]
                 }
                             ]
                     }
-        }]}
+        },
+        {
+            "id": 3,
+            "category": "karma",
+            "type": "sucha",
+            "animal": "psy",
+            "product-name": "RAW PALEO Puppy Large Indyk",
+            "brand": "VetExpert",
+            "meat": ["Indyk"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Nakarm swojego szczeniaka zdrową karmą RAW PALEO 80g indyka w 100g karmy zapewni łatwostrawne źródło białek i energii potrzebnej każdemu młodemu psu. Bardzo wysoka zawartość świeżych składników – mięsa i warzyw – gwarantuje nieporównywalnie wysoką smakowitość."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Indyk (80g/100g) (świeży indyk 48,5g/100g; suszony indyk (25g/100g), tłuszcz z indyka (4.5g/100g), sos z indyka (2g/100g), słodkie ziemniaki, ziemniaki, świeżo przygotowane warzywa sezonowe (12.8/100g), białko ziemniaczane, olej z łososia (3g/100g), składniki mineralne, witaminy, dodatek DHA (0,3g/100g), Perna canaliculis (0.3g/100), glukozamina (960mg/kg), siarczan chondroityna (960mg/kg)."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe – 28,0%, oleje i tłuszcze surowe – 17,0%, włókno surowe – 2,0%, popiół surowy – 7,5%, kwasy tłuszczowe omega-6 -2,5%; kwasy tłuszczowe omega-3 – 1,04%, wapń 1,4%; fosfor 1,1%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000006",
+                    "value": "2 kg",
+                    "price": 99.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/raw-paleo-puppy-large-turkey-2.5kg.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000007",
+                    "value": "12 kg",
+                    "price": 353.29,
+                    "discount": 15,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/raw-paleo-puppy-large-turkey-12kg.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 4,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "Brit Pate & Meat Łosoś",
+            "brand": "Brit",
+            "meat": ["Łosoś"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Każdy pies zasługuje na to, co najlepsze. By jak najdłużej był zdrowy i szczęśliwy, warto zadbać o jak najbardziej wartościową dietę. Brit Pate & Meat Salmon to mokra karma dla psów o smaku łososia. Jej formuła skomponowana jest tak, by zadowolić każdego psa, ponieważ ma dużą zawartość delikatnie obrobionego mięsa o doskonałym smaku i aromacie. Dodatkowo, nie zawiera zbóż, soi oraz GMO."
+                },
+                {
+                    "title": "Skład",
+                    "description": "26% łosoś, 24% kurczak, 8% cała wątróbka drobiowa, 12% serce i płuca, 28,5% bulion, 1% minerały, 0,5% olej z łososia."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe 11,0%, tłuszcz surowy 9,0%, popiół surowy 6,5%, wilgotność 75,0%, włókno surowe 0,4%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000008",
+                    "value": "400 g",
+                    "price": 6.49,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/brit-pate-meat-salmon.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000009",
+                    "value": "800 g",
+                    "price": 10.89,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/brit-pate-meat-salmon.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 5,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "DOLINA NOTECI RAFI Dziczyzna, Borówki i Żurawina",
+            "brand": "Dolina Noteci",
+            "meat": ["Dziczyzna"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Mokra karma Rafi z dziczyzną charakteryzuje się wysoką zawartością pełnowartościowego białka oraz nienasyconych kwasów tłuszczowych, głównie n-3 odpowiedzialnych za wspieranie odporności. Mięso i surowce pochodzące z dziczyzny uzupełniają recepturę o aminokwasy - metioninę, izoleucynę i cystynę. Karma zawiera selen i miedź w ilościach pokrywających zapotrzebowanie dorosłego psa. Dodatek owoców: borówki amerykańskiej i żurawiny, dzięki występującym w nich związkach biologicznie czynnych, głównie procyjanidyn i flawonoidów, wykazuje silne właściwości przeciwutleniające i przeciwzapalne. Z kolei tymianek sprawia, że karma jest bardziej smakowita."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Mięso i produkty pochodzenia zwierzęcego 65% (mięso z dziczyzny 4%), owoce (borówka amerykańska 2%, żurawina 2%), substancje mineralne, oleje i tłuszcze (olej lniany 0,2%), tymianek suszony 0,01%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe 9%, tłuszcz surowy 7%, popiół surowy 2,5%, włókno surowe 0,8%, wilgotność 78%, wapń 0,3%, fosfor 0,25%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000010",
+                    "value": "400 g",
+                    "price": 4.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-rafi-mokra-karma-dla-psa-z-dziczyzna,-borowka-i-zurawina.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000011",
+                    "value": "800 g",
+                    "price": 8.79,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-rafi-mokra-karma-dla-psa-z-dziczyzna,-borowka-i-zurawina.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 6,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "DOLINA NOTECI RAFI Jagnięcina, Borówka i Żurawina",
+            "brand": "Dolina Noteci",
+            "meat": ["Jagnięcina"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Mięso z jagnięciny to źródło pełnowartościowego białka, witamin z grupy B oraz wielu cennych mikro- i makroelementów warunkujących prawidłowe funkcjonowanie organizmu dorosłego psa. Kwasy tłuszczowe z rodziny n-3 i n-6 wspierają naturalną odporność, a także uczestniczą w regulowaniu procesów metabolicznych. Pełnią też funkcję nawilżającą – korzystanie wpływają na stan skóry i sierści. Mokra karma Rafi zawiera odpowiednie proporcje selenu i miedzi. Dodatek tymianku wpływa na atrakcyjność sensoryczną tej mokrej karmy. Mięso i surowce pochodzące z jagnięciny są również źródłem aminokwasów – metioniny, izoleucyny i cystyny. Walory karmy podnoszą obecne w składzie borówka oraz żurawina, źródła wielu cennych witamin i składników odżywczych."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Mięso i produkty pochodzenia zwierzęcego 65% (mięso jagnięce 4%), owoce (borówka amerykańska 2%, żurawina 2%), substancje mineralne, oleje i tłuszcze (olej lniany 0,2%), tymianek suszony 0,01%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe 9%, tłuszcz surowy 7%, popiół surowy 2,5%, włókno surowe 0,8%, wilgotność 78%, wapń 0,3%, fosfor 0,25%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000012",
+                    "value": "400 g",
+                    "price": 4.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-rafi-karma-dla-psa-z-jagniecina,-borowka-i-zurawina.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000013",
+                    "value": "800 g",
+                    "price": 8.79,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-rafi-karma-dla-psa-z-jagniecina,-borowka-i-zurawina.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 7,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "DOLINA NOTECI RAFI Junior Cielęcina, Żurawina i Borówka",
+            "brand": "Dolina Noteci",
+            "meat": ["Cielęcina"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Mokra pełnoporcjowa karma Rafi dla szczeniąt oraz młodych psów, lekkostrawna o wysokiej zawartości łatwostrawnego białka. Dzięki zawartości oleju z łososia, karma dostarcza nienasyconych kwasów tłuszczowych z rodzin n-3 i n-6, które wspierają naturalną odporność oraz poprawiają funkcjonowanie układu trawiennego. Borówka amerykańska i żurawina dostarczają wielu składników odżywczych i witamin, a wraz z tymiankiem wpływają na zwiększenie atrakcyjności sensorycznej karmy."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Mięso i produkty pochodzenia zwierzęcego 65% (mięso cielęce 4%), owoce (borówka amerykańska 2%, żurawina 2%), substancje mineralne, oleje i tłuszcze (olej z łososia 0,2%), tymianek suszony 0,01%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko – 10,5%, oleje i tłuszcze surowe – 7,5%, popiół surowy – 2,5%, włókno surowe – 0,8%, wilgotność – 77%, wapń – 0,3%, fosfor - 0,25%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000014",
+                    "value": "400 g",
+                    "price": 3.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-rafi-karma-dla-psa-junior-z-cielecina,-zurawina-i-borowka.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000015",
+                    "value": "800 g",
+                    "price": 6.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-rafi-karma-dla-psa-junior-z-cielecina,-zurawina-i-borowka.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 8,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "DOLINA NOTECI RAFI Wołowina, Borówka i Żurawina",
+            "brand": "Dolina Noteci",
+            "meat": ["Wołowina"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Mokra karma Rafi z wołowiną charakteryzuje się wysoką zawartością pełnowartościowego białka przy niskiej zawartości tłuszczu. Oprócz tego mięso i surowce pochodzące z wołowiny są cennym źródłem lizyny i histydyny. Ważnymi substancjami są również kwasy tłuszczowe z rodzin n-3 i n-6, regulujące pracę wielu funkcji życiowych dorosłych psów. Karma zawiera żelazo zapewniające prawidłową gospodarkę krwi, a także selen i cynk, pokrywając dzienne zapotrzebowanie na te składniki. Receptura została wzbogacona o dodatek borówki i żurawiny, które dzięki występujących w nich związkach biologicznie czynnych, głównie procyjanidyn i flawonoidów, wykazują silne właściwości przeciwutleniające i przeciwzapalne. Tymianek z kolei działa antybakteryjnie i korzystnie wpływa na funkcje trawienne."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Mięso i produkty pochodzenia zwierzęcego 65% (mięso wołowe 4%), owoce (borówka amerykańska 2%, żurawina 2%), substancje mineralne, oleje i tłuszcze (olej lniany 0,2%), tymianek suszony 0,01%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe – 9%, tłuszcz surowy – 7%, popiół surowy – 2,5%, włókno surowe – 0,8%, wilgotność – 78%, wapń – 0,3%, fosfor – 0,25%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000016",
+                    "value": "400 g",
+                    "price": 4.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-rafi-karma-dla-psa-z-wolowina,-borowka-i-zurawina.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000017",
+                    "value": "800 g",
+                    "price": 8.79,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-rafi-karma-dla-psa-z-wolowina,-borowka-i-zurawina.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 9,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "Dolina Noteci Premium Jagnięcina",
+            "brand": "Dolina Noteci",
+            "meat": ["Jagnięcina"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Dobre samopoczucie psa to marzenie każdego właściciela. Zapewnić to może odpowiednia ilość spacerów, zabawa, miękkie posłanie, dostęp do świeżej wody i odpowiednio skomponowany posiłek. Dolina Noteci Premium o smaku jagnięciny to pełnoporcjowa mokra karma stworzona dla psów wszystkich ras. Jagnięcina stanowi idealne źródło żelaza i miedzi, które pomagają dbać o psią odporność, a także o układ krążenia. W karmie zrezygnowano z użycia zbóż, dzięki czemu ograniczono możliwość wystąpienia problemów trawiennych. Ponadto, tłuszcz z mięsa jagnięcego zawiera dużą ilość kwasów tłuszczowych n-3 i n-6 poprawiających stan skóry i sierści."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Wołowina 30% (płuca, serca, żołądki, mięso, wymiona), jagnięcina 25% (wątroba, mięso, serca), wieprzowina 20% (mięso, nerki, wątroba, przełyki), rosół, jaja 3%, marchew 1,7%, ryż naturalny brązowy 1,2%, substancje mineralne, olej lniany 0,2%, nasiona babki płesznik 0,2%, bazylia suszona 0,01%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe – 12%, tłuszcz surowy – 7,5%, popiół surowy – 2,5%, włókno surowe – 0,6%, wilgotność – 75%, wapń – 0,3%, fosfor – 0,25%"
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000018",
+                    "value": "150 g",
+                    "price": 3.69,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-jagniecina-150-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000019",
+                    "value": "400 g",
+                    "price": 6.39,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-jagniecina-400-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000020",
+                    "value": "500 g",
+                    "price": 6.59,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-jagniecina-500-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000021",
+                    "value": "800 g",
+                    "price": 10.49,
+                    "discount": 0,
+                    "available": false,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-jagniecina-800-g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 10,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "Dolina Noteci Premium Wołowina",
+            "brand": "Dolina Noteci",
+            "meat": ["Wołowina"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Dobre samopoczucie psa to marzenie każdego właściciela. Zapewnić to może odpowiednia ilość spacerów, zabawa, miękkie posłanie, dostęp do świeżej wody i odpowiednio skomponowany posiłek. Dolina Noteci Premium o smaku wołowiny to pełnoporcjowa mokra karma stworzona dla psów wszystkich ras. Mięso wołowe stanowi idealne źródło metioniny i cystyny, ważnych dla funkcjonowania organizmu aminokwasów. Ponadto, zawiera żelazo, miedź oraz selen, które wspierają odporność psa. W karmie zrezygnowano z użycia zbóż, dzięki czemu ograniczono możliwość wystąpienia problemów trawiennych."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Wołowina 55% (płuca, mięso, wątroba, serca, żołądki, wymiona), wieprzowina 20% (mięso, nerki, wątroba, przełyki), rosół, jaja 3% , marchew 1,7%, ryż naturalny brązowy 1,2%, węglan wapnia, substancje mineralne, olej lniany 0,2%, nasiona babki płesznik 0,2%, chlorek potasu, bazylia suszona 0,01%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe – 12%, tłuszcz surowy – 6,5%, popiół surowy – 2,5%, włókno surowe – 0,6%, wilgotność – 77%, wapń – 0,3%, fosfor – 0,25%"
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000022",
+                    "value": "150 g",
+                    "price": 3.69,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-wolowina-150-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000023",
+                    "value": "400 g",
+                    "price": 6.39,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-wolowina-400-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000024",
+                    "value": "500 g",
+                    "price": 6.59,
+                    "discount": 0,
+                    "available": false,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-wolowina-500-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000025",
+                    "value": "800 g",
+                    "price": 10.49,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-wolowina-800-g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 11,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "Dolina Noteci Premium Indyk",
+            "brand": "Dolina Noteci",
+            "meat": ["Indyk"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Dobre samopoczucie psa to marzenie każdego właściciela. Zapewnić to może odpowiednia ilość spacerów, zabawa, miękkie posłanie, dostęp do świeżej wody i odpowiednio skomponowany posiłek. Dolina Noteci Premium o smaku indyka to pełnoporcjowa mokra karma stworzona dla psów wszystkich ras. Mięso z indyka stanowi idealne źródło  aminokwasów, metioniny i cysteiny, ponadto zawiera wielonienasycone kwasy tłuszczowe z rodziny n-6. Jest ono również niskokaloryczne, a przy tym dające uczucie sytości. W karmie zrezygnowano z użycia zbóż, dzięki czemu ograniczono możliwość wystąpienia problemów trawiennych."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Wołowina 30% (płuca, serca, żołądki, mięso, wymiona), indyk 25% (serca, mięso, wątroba), wieprzowina 20% (mięso, wątroba, nerki, przełyki), rosół, jaja 3%, marchew 1,7%, ryż naturalny brązowy 1,2%, substancje mineralne, olej lniany 0,2%, nasiona babki płesznik 0,2%, bazylia suszona 0,01%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe – 11%, tłuszcz surowy – 6,5%, popiół surowy – 2,5%, włókno surowe – 0,8%, wilgotność – 78%, wapń – 0,3%, fosfor – 0,25%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000026",
+                    "value": "150 g",
+                    "price": 3.69,
+                    "discount": 0,
+                    "available": false,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-indyk-150-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000027",
+                    "value": "400 g",
+                    "price": 6.39,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-indyk-400-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000028",
+                    "value": "500 g",
+                    "price": 6.59,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-indyk-500-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000029",
+                    "value": "800 g",
+                    "price": 9.89,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-indyk-800-g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 12,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "Dolina Noteci Premium Gęś z Ziemniakami",
+            "brand": "Dolina Noteci",
+            "meat": ["Gęś"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Dobre samopoczucie psa to marzenie każdego właściciela. Zapewnić to może odpowiednia ilość spacerów, zabawa, miękkie posłanie, dostęp do świeżej wody i odpowiednio skomponowany posiłek. Dolina Noteci Premium o smaku gęsi z ziemniakami to pełnoporcjowa mokra karma stworzona dla psów wszystkich ras .Gęsina stanowi idealne źródło   aminokwasów, metioniny i cysteiny, a tłuszcz z mięsa gęsi zawiera kwasy tłuszczowe wielonienasycone z rodziny n-6. W karmie zrezygnowano z użycia zbóż, dzięki czemu ograniczono możliwość wystąpienia problemów trawiennych. Dodatek ziemniaków sprawia, że jest ona bogata w witaminy A, z grupy B (B1, B2, B3, B6), PP, witaminę C, a także potas, magnez, wapń, żelazo i fosfor."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Wołowina 30% (płuca, serca, żołądki, mięso, wymiona), gęś 25% (serca, mięso, wątroba), wieprzowina 20% (mięso, wątroba, nerki, przełyki), rosół, ziemniaki 4%, jaja 3%, substancje mineralne, olej lniany 0,2%, nasiona babki płesznik 0,2%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe – 11%, tłuszcz surowy – 7,5%, popiół surowy – 2,5%, włókno surowe – 1%, wilgotność – 77%, wapń – 0,3%, fosfor – 0,25%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000030",
+                    "value": "150 g",
+                    "price": 3.69,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-ges-z-ziemniakami-150-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000031",
+                    "value": "400 g",
+                    "price": 6.39,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-ges-z-ziemniakami-400-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000032",
+                    "value": "500 g",
+                    "price": 6.59,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-ges-z-ziemniakami-500-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000033",
+                    "value": "800 g",
+                    "price": 9.49,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-ges-z-ziemniakami-800-g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 13,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "Dolina Noteci Premium Kurczak",
+            "brand": "Dolina Noteci",
+            "meat": ["Kurczak"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Dobre samopoczucie psa to marzenie każdego właściciela. Zapewnić to może odpowiednia ilość spacerów, zabawa, miękkie posłanie, dostęp do świeżej wody i odpowiednio skomponowany posiłek. Dolina Noteci Premium o smaku kurczaka to pełnoporcjowa mokra karma stworzona dla psów wszystkich ras. Kurczak stanowi idealne źródło  cynku i selenu, które dbają o odporność czworonoga oraz stan jego skóry.  Ponadto, zawiera dużą ilość kwasów tłuszczowych n-6 odpowiedzialnych za piękny wygląd sierści.. W karmie zrezygnowano z użycia zbóż, dzięki czemu ograniczono możliwość wystąpienia problemów trawiennych."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Wołowina 30% (płuca, serca, żołądki, mięso, wymiona), kurczak 25% (serca, mięso, wątroba), wieprzowina 20% (mięso, wątroba, nerki, przełyki), rosół, jaja 3%, marchew 1,7%, ryż naturalny brązowy 1,2%, substancje mineralne, olej lniany 0,2%, nasiona babki płesznik 0,2%, bazylia suszona 0,01%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe – 11%, tłuszcz surowy – 7%, popiół surowy – 2,5%, włókno surowe – 1%, wilgotność – 76%, wapń – 0,3%, fosfor – 0,25%"
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000034",
+                    "value": "150 g",
+                    "price": 3.69,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-kurczak-150-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000035",
+                    "value": "400 g",
+                    "price": 6.39,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-kurczak-400-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000036",
+                    "value": "500 g",
+                    "price": 6.59,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-kurczak-500-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000037",
+                    "value": "800 g",
+                    "price": 9.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-kurczak-800-g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 14,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "Dolina Noteci Premium Kaczka z Dynią",
+            "brand": "Dolina Noteci",
+            "meat": ["Kaczka"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Odpowiednia dieta ma niebagatelny wpływ zarówno na zdrowie, jak i wygląd psa. Najlepiej wybrać karmę marki premium, gdzie składniki zostały tak dobrane, by dostarczyć pupilowi tego, co najważniejsze do prawidłowego rozwoju. Na wysokości zadania staje uznana polska marka Dolina Noteci, która stworzyła mokrą karmę dla psa bogatą w kaczkę z dynią. Taki produkt to nie tylko pyszne rozwiązanie dla psiego smakosza, ale też ogromna dawka zdrowej energii i dobrego samopoczucia. Kaczka zapewnia odpowiedni poziom żelaza i selenu w psim organizmie, a dynia wspomaga układ trawienny."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Wołowina 30% (płuca, serca, żołądki, mięso, wymiona), kaczka 25% (wątroba, mięso, serca), wieprzowina 20% (mięso, nerki, wątroba, przełyki), rosół, dynia 4%, jaja 3%, substancje mineralne, olej lniany 0,2%, nasiona babki płesznik 0,2%, bazylia suszona 0,01%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe – 12%, tłuszcz surowy – 6,5%, popiół surowy – 2,5%, włókno surowe – 0,8%, wilgotność – 77%, wapń – 0,3%, fosfor – 0,25%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000038",
+                    "value": "150 g",
+                    "price": 3.79,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-kaczka-z-dynia-150-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000039",
+                    "value": "400 g",
+                    "price": 6.19,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-kaczka-z-dynia-400-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000040",
+                    "value": "500 g",
+                    "price": 6.49,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-kaczka-z-dynia-500-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000041",
+                    "value": "800 g",
+                    "price": 9.59,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/dolina-noteci-premium-kaczka-z-dynia-800-g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 15,
+            "category": "karma",
+            "type": "sucha",
+            "animal": "psy",
+            "product-name": "Josera Optiness Średnie i Duże Rasy Jagnięcina",
+            "brand": "Josera",
+            "meat": ["Jagnięcina"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Średnie i duże psy mają nieco inne wymagania, niż ich mniejsi koledzy. Z uwagi na ich wagę, konieczne jest zapewnienie im odpowiedniej ilości dobrego pożywienia o dobranej kaloryce i składzie. Josera Optiness to sucha karma dla dorosłych psów średnich i dużych ras. Wspiera ona psi organizm poprzez zredukowaną zawartość białka odciążając tym samym organy wewnętrzne, a także poprzez dodatek L-karnityny i tauryny istotnych dla pracy serca. To, co niezwykle ważne dla psów średnich i dużych ras to jej optymalny stosunek wapnia do fosforu oraz składniki takie jak witamina C, mangan oraz miedź wzmacniające kościec psa oraz przyczyniające się do zachowania dobrego stanu chrząstek stawowych."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Suszone białko drobiowe, ryż, jęczmień, suszone ziemniaki 10,0%, wysłodki buraczane, tłuszcz drobiowy, suszone białko jagnięce 4,5%, hydrolizowane białko drobiowe, minerały, suszony korzeń cykorii (naturalne źródło inuliny), suszone mięso nowozelandzkich małż zielonych (Perna canaliculus)."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko 22%, tłuszcz 12%, włókno 3%, popiół 7%, wapń 1,5%, fosfor 1%, sód 0,4%, magnez 0,1%"
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000042",
+                    "value": "900 g",
+                    "price": 3.79,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/josera-optiness-srednie-i-duze-rasy-jagniecina-900-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000043",
+                    "value": "15 kg",
+                    "price": 6.19,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/josera-optiness-srednie-i-duze-rasy-jagniecina-15-kg.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 16,
+            "category": "karma",
+            "type": "sucha",
+            "animal": "psy",
+            "product-name": "Acana Grass-Fed Monobiałkowa Dla Wrażliwych Psów z Jagnięciną",
+            "brand": "Acana",
+            "meat": ["Jagnięcina"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "ACANA SINGLES Grass-Fed Lamb to bezzbożowa karma monobiałkowa, która zawiera 50% jagnięciny, będącej źródłem łatwo przyswajalnego białka zwierzęcego. Idealne rozwiązanie dla psów wrażliwych wszystkich ras, w każdym wieku. Jagnięcina pochodzi od zwierząt chowanych na wolnym wybiegu w Nowej Zelandii. Dostarczana jest do kuchni NorthStar w odżywczych proporcjach WholePrey - mięso, wątroba, żołądki, co odzwierciedla naturalną dietę psa. Świeże jabłka, dynia i dynia piżmowa wspierają zdrowie układu pokarmowego."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Surowa jagnięcina (18%), dehydratyzowana jagnięcina (18%), cały groch zielony, cała czerwona soczewica, surowa wątroba jagnięca (4%), tłuszcz jagnięcy (4%), świeże jabłka red delicious (4%), cała ciecierzyca, cała zielona soczewica, cały groch żółty, surowe żołądki jagnięce (2%), surowe nerki jagnięce (2%), dehydratyzowane chrząstki jagnięce (2%), włókno soczewicy, algi morskie (1.2%) (źródło DHA i EPA), świeża cała dynia piżmowa, świeża cała dynia, suszony brązowy kelp, sól, liofilizowana wątroba jagnięca (0.1%), świeża cała żurawina, świeże całe borówki, korzeń cykorii, kurkuma, ostropest plamisty, korzeń łopianu, kwiat lawendy, korzeń prawoślazu lekarskiego, owoce dzikiej róży."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe (min.) 31 %, Oleje i tłuszcze surowe (min.) 15 %, Popiół surowy (max.) 7.5 %, Włókno surowe (max.) 5 %, Wilgotność (max.) 12 %, Wapń (min.) 1.5 %, Fosfor (min.) 1.1 %, Omega-6 (min.) 1.8 %, Omega-3 (min.) 0.8 %, DHA (min.) 0.15 %, EPA (min.) 0.1 %, Glukozamina (min.) 600 mg/kg, Chondroityna (min.) 800 mg/kg"
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000044",
+                    "value": "17 kg",
+                    "price": 469.39,
+                    "discount": 10,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/acana-grass-fed-monobialkowa-sucha-karma-dla-wrazliwych-psow-wszystkich-ras-w-kazdym-wieku-z-jagniecina-17-kg-1.jpg"
+                        },
+                        {
+                            "src": "/images/acana-grass-fed-monobialkowa-sucha-karma-dla-wrazliwych-psow-wszystkich-ras-w-kazdym-wieku-z-jagniecina-17-kg-2.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 17,
+            "category": "karma",
+            "type": "sucha",
+            "animal": "psy",
+            "product-name": "Lincoln Jagnięcina Ryż",
+            "brand": "Lincoln",
+            "meat": ["Jagnięcina"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Dorosły pies ma już swoje przyzwyczajenia - lubi spacery w określonych godzinach, drapanie za uszami i posiłki oparte na pożywnych składnikach. Najwięksi psi smakosze wybiorą zbilansowaną dietę, w której prym będzie wiodła hipoalergiczna karma Lincoln Adult Lamb & Rice. Docenią ją głównie psiaki, które miewają problemy z niestrawnością i alergiami pokarmowymi - lekkostrawny ryż, rozpływająca się w pysku jagnięcia oraz multum dodatków tworzą wspólnie bardzo pożywną mieszankę, która zapewni czworonożnemu przyjacielowi prawdziwy zastrzyk codziennej energii."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Mięso i produkty pochodzenia zwierzęcego (w tym 31% suszonej jagnięciny, 19% suszonego kurczaka), kukurydza, biały ryż (24%), tłuszcz zwierzęcy, produkty pochodzenia roślinnego (w tym 0,5% suszonej cykorii – naturalnego źródła FOS i inuliny), składniki minerlane, drożdże, glukozamina, siarczan chondroityny."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe 24,0%, Włókno surowe 2,5%, Tłuszcz surowy 14,0%, Materia nieorganiczna 8,0%, Wilgotność 9,0%"
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000045",
+                    "value": "3 kg",
+                    "price": 67.79,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/lincoln-jagniecina-ryz-3kg.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000046",
+                    "value": "12 kg",
+                    "price": 199.19,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/lincoln-jagniecina-ryz-12kg.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 18,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "psy",
+            "product-name": "Paka Zwierzaka Seventh Heaven Królik z Wołowiną",
+            "brand": "Paka Zwierzaka",
+            "meat": ["Królik","Wołowina"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Idealnie zbilansowana mokra karma SUPERPREMIUM dla psów w każdym wieku. Kompletny posiłek pozbawiony zbóż, glutenu, konserwantów i sztucznych barwników. Najwyższej jakości mięso królika oraz wołowiny sprawiają, że karma jest pyszna i lekkostrawna. Starannie dobrana formuła dla psów z wrażliwym żołądkiem."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Królik i wołowina 98,7% (w tym królicze mięso i podroby 34%, wołowe mięso i podroby 34%, rosół z królika i wołowiny 30,7%), minerały i witaminy 1%, olej z łososia 0,2%, małża nowozelandzka 0,1%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko 12%, tłuszcz 9,2%, surowy popiół 3,2%, surowe włókno 1%, wilgotność 73,4%, wapń 0,3%, fosfor 0,2%"
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000047",
+                    "value": "400 g",
+                    "price": 9.59,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/paka-zwierzaka-seventh-heaven-krolik-z-wolowina-400g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 19,
+            "category": "karma",
+            "type": "sucha",
+            "animal": "koty",
+            "product-name": "Grandorf Ryba z Brązowym Ryżem",
+            "brand": "Grandorf",
+            "meat": ["Ryba"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Dla kotów o normalnej aktywności powyżej 1 roku życia. Idealny dla zwierząt wymagających szczególnej uwagi i pielęgnacji skóry i sierści, a także zwierząt o wrażliwym układzie pokarmowym lub skłonnych do alergii. Bogata w rybę oceaniczną formuła skoncentrowana na czystym białku zwierzęcym, dostarcza wszystkich niezbędnych aminokwasów, aby zaspokoić biologiczne zapotrzebowanie zwierzęcia na mięso oraz, aby pomóc w utrzymaniu zdrowego trybu życia. Składniki hipoalergiczne są idealne dla wrażliwych zwierząt, mogą pomóc w trawieniu i wzmocnić układ odpornościowy."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Dehydratyzowany dorsz, Dehydratyzowany śledź, Pełnoziarnisty ryż, Dehydratyzowane mięso z indyka, Tłuszcz z indyka, Suszony kryl antarktyczny (naturalne źródło EPA i DHA), Cykoria suszona (naturalne źródło prebiotyków FOS i inuliny), Suszone jabłko, Drożdże piwne (naturalne źródło MOS), Suszona marchew, Suszony szpinak, Nasiona lnu, Tauryna, Suszona żurawina, Jukka Schidigera. Naturalnie konserwowana mieszanką tokoferoli i ekstraktem z rozmarynu."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Surowe białka: 33,0 Surowe tłuszcze:16,0 Omega-6: 3,5 Omega-3: 0,8 Surowy popiół: 7,5 Włókno surowe: 2,5 Wilgotność: 6,0 Wapń (Са): 1,2 Fosfor (P): 1,0 Magnesium (Mg): 0,09 pH: 6-6,5"
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000048",
+                    "value": "400 g",
+                    "price": 29.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/grandorf-white-fish-&-brown-rice-indoor-karma-sucha-dla-kota-400-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000049",
+                    "value": "2 kg",
+                    "price": 111.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/grandorf-white-fish-&-brown-rice-indoor-karma-sucha-dla-kota-2-kg.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 20,
+            "category": "karma",
+            "type": "sucha",
+            "animal": "koty",
+            "product-name": "Advance Kitten Dla Kociąt Oraz Dla Kotek W Ciąży I Karmiących",
+            "brand": "Advance",
+            "meat": ["Kurczak"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "ADVANCE Kitten to najwyższej jakości produkt opracowany specjalnie z myślą o zaspokojeniu potrzeb kociąt i ich matek pod koniec ciąży i podczas karmienia. Dzięki wyjątkowej formule uzupełnionej o nukleotydy,karma wspiera optymalny wzrost, wspomaga rozwój mózgu i wzroku. Wzmacnia naturalne mechanizmy obronne kociaka i chroni jego zdrowie. ADVANCE Kitten jest szczególnie polecany dla kociąt od 2 do 12 miesiąca życia oraz dla kotek w ciąży i karmiących."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Kurczak 28%, ryż 16%, odwodnione białko wieprzowe, białko z kukurydzy, odwodnione białko drobiowe, tłuszcz zwierzęcy (stabilizowany kompozycją tokoferoli naturalnego pochodzenia), kukurydza, hydrolizat białka zwierzęcego, odwodnione białko łososia, pulpa buraczana, suszone jajko, olej rybi, drożdże, białka osocza (naturalne źródło immunoglobulin) 0.65%, chlorek potasu, fruktooligosacharydy, węglan wapnia, ekstrakt z drożdży (naturalne źródło nukleotydów) 0.1%."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description": "Białko: 41%; Oleje i tłuszcze surowe: 20%; Włókno surowe: 1.5%; Popiół surowy: 6.5%; Kwasy tłuszczowe Omega-3: 0.4%; Kwasy tłuszczowe Omega-6: 2.8%."
+                }
+            ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000050",
+                    "value": "400 g",
+                    "price": 17.89,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/advance-kittensucha-karma-dla-kociat-oraz-dla-kotek-wciazy-ikarmiacych-400-g.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000051",
+                    "value": "1,5 kg",
+                    "price": 55.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/advance-kitten-sucha-karma-dla-kociat-oraz-dla-kotek-wciazy-ikarmiacych-1,5-kg.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000052",
+                    "value": "10 kg",
+                    "price": 261.89,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/advance-kitten-sucha-karma-dla-kociat-oraz-dla-kotek-wciazy-ikarmiacych-10-kg.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 21,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "koty",
+            "product-name": "Morando Pro Pasztet z Łososiem",
+            "brand": "Morando",
+            "meat": ["Łosoś"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Idealnie zbalansowana, lekko strawna mokra karma dla kotów zawierająca 50% wyselekcjonowanego, wysokiej jakości mięsa zwierzęcego, mięso ryb, łososia (5%) oraz witaminy D3, E, cynk, magnez, potas, proteiny oraz niezbędne minerały. To energia witalna, silne mięśnie, piękna sierść oraz zdrowy rozwój Twojego kota."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Mięso i produkty pochodzenia zwierzęcego 50%, ryby i produkty rybne (łosoś 5%), minerały."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Wilgotność 80%, Białko surowe 10,2%, Tłuszcz surowy 3,8%, Błonnik surowy 0,5%, Minerały 1,8%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000053",
+                    "value": "100 g",
+                    "price": 3.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/morando-pro-mokra-karma-dla-kota-pasztet-zlososiem-100-g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 22,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "koty",
+            "product-name": "Morando Pro Pasztet Kurczak z Indykiem",
+            "brand": "Morando",
+            "meat": ["Kurczak","Indyk"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Idealnie zbalansowana, lekko strawna mokra karma dla kotów zawierająca 50% wyselekcjonowanego, wysokiej jakości mięsa zwierzęcego, indyka (5%), kurczaka (5%) oraz witaminy D3, E, cynk, magnez, potas, proteiny oraz niezbędne minerały. To energia witalna, silne mięśnie, piękna sierść oraz zdrowy rozwój Twojego kota."
+                },
+                {
+                    "title": "Skład",
+                    "description": "Mięso i produkty pochodzenia zwierzęcego 50% (kurczak 5%, indyk 5%), minerały."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Wilgotność 80%, Białko surowe 10,2%, Tłuszcz surowy 3,8%, Błonnik surowy 0,5%, Minerały 1,8%."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000054",
+                    "value": "100 g",
+                    "price": 3.99,
+                    "discount": 5,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/morando-pro-mokra-karma-dla-kota-pasztet-kurczak-z-indykiem-100-g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 23,
+            "category": "karma",
+            "type": "mokra",
+            "animal": "koty",
+            "product-name": "Wiejska Zagroda Indyk z Kurczakiem",
+            "brand": "Wiejska Zagroda",
+            "meat": ["Indyk","Kurczak"],
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Pełnoporcjowa mokra karma dla kociąt i młodych kotów.  Proste składniki, bez zbędnych dodatków jak zboża, soja czy polepszacze smaku to nasz przepis na zdrowie i witalność Twojego pupila. Podstawą posiłku jest mięso w aromatycznym bulionie własnym. Smakowitym dodatkiem do mięsnej uczty jest świeży olej z łososia, bogactwo kwasów tłuszczowych Omega 3 EPA i DHA, cennych dla sierści i skóry Twojego kota.  Mięso indyka jest mięsem lekkostrawnym, chudym, a zarazem bogatym w odżywcze białko. Wraz z bogatym w białko kurczakiem, który jest wyjątkowo lubiane przez koty, to propozycja idealna dla młodych kotów i kociąt."
+                },
+                {
+                    "title": "Skład",
+                    "description": "35 % indyk (16 % mięso, 12 % serca, 7 % wątroba), 35 % kurczak (17,5 % mięso, 9,8 % wątroba, 7,7 % żołądki), 28,4 % bulion z indyka i kurczaka, 1 % składniki mineralne, 0,5 % olej z łososia, 0,1 % spirulina."
+                },
+                {
+                    "title": "Składniki analityczne",
+                    "description":"Białko surowe 10,7 %, włókno surowe 0,5 %, tłuszcz surowy 6,5 %, popiół surowy 1,5 %, wilgotność 80,1 %, wapń 0,21 %, fosfor 0,16 %."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000055",
+                    "value": "400 g",
+                    "price": 7.99,
+                    "discount": 0,
+                    "available": false,
+                    "images": [
+                        {
+                            "src": "/images/wiejska-zagroda-indyk-z-kurczakiem-dla-kociat-400-g.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        },
+        {
+            "id": 24,
+            "category": "zabawki",
+            "animal": "psy",
+            "product-name": "Pet Nova Dog Life Style Sznur Bawełniany Superdental",
+            "brand": "Pet Nova",
+            "info": [
+                {
+                    "title": "Opis",
+                    "description": "Zabawka wykonana z gęsto wiązanej naturalnej i wytrzymałej bawełny o czym świadczy wysoka waga zabawki w porównaniu z konkurencyjnymi modelami. Siedem specjalnie dobranych kolorów pobudzi do zabawy każdego psa. Zabawka z kategorii 'SUPERDENTAL' co oznacza, że gryzak czyści zęby, redukuje kamień nazębny, odświeża oddech oraz zapobiega zapaleniu dziąseł. Zabawka wykorzystywana jako aport, szarpak lub gryzak."
+                }
+                    ],
+            "options": {
+                "name": "Rozmiary",
+                "variants": [
+                {
+                    "product-number": "000056",
+                    "value": "17 cm",
+                    "price": 4.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/pet-nova-dog-life-style-sznur-bawelniany-superdental-zabawka-dla-psa-17-cm.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000057",
+                    "value": "20 cm",
+                    "price": 5.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/pet-nova-dog-life-style-sznur-bawelniany-superdental-zabawka-dla-psa-20-cm.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000058",
+                    "value": "25 cm",
+                    "price": 6.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/pet-nova-dog-life-style-sznur-bawelniany-superdental-zabawka-dla-psa-25-cm.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000059",
+                    "value": "30 cm",
+                    "price": 8.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/pet-nova-dog-life-style-sznur-bawelniany-superdental-zabawka-dla-psa-30-cm.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000060",
+                    "value": "38 cm",
+                    "price": 9.99,
+                    "discount": 0,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/pet-nova-dog-life-style-sznur-bawelniany-superdental-zabawka-dla-psa-38-cm.jpg"
+                        }
+                                ]
+                },
+                {
+                    "product-number": "000061",
+                    "value": "51 cm",
+                    "price": 14.99,
+                    "discount": 5,
+                    "available": true,
+                    "images": [
+                        {
+                            "src": "/images/pet-nova-dog-life-style-sznur-bawelniany-superdental-zabawka-dla-psa-51-cm.jpg"
+                        }
+                                ]
+                }
+                            ]
+                    }
+        }
+            ]
+}

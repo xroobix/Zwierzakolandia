@@ -51,7 +51,11 @@
     .hero__wrapper {
         background-image: none;
     }
+    .hero {
+        margin-top: 2rem;
+    }
     .hero__text {
         width: 100%;
+        text-align: center;
     }
 }
